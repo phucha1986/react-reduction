@@ -3,6 +3,10 @@
   "version": "1.1.0",
   "private": false,
   "homepage": "https://reduction-admin.github.io/react-reduction",
+  "engines": { 
+    "node": ">=6",
+    "npm": ">=12"
+  },
   "dependencies": {
     "bootstrap": "4.3.1",
     "chart.js": "2.7.2",
