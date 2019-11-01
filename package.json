@@ -4,7 +4,7 @@
   "private": false,
   "homepage": "https://reduction-admin.github.io/react-reduction",
   "engines": {
-    "node": ">=13",
+    "node": ">=10",
     "npm": ">=6"
   },
   "dependencies": {
