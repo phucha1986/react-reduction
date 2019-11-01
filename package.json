@@ -4,8 +4,8 @@
   "private": false,
   "homepage": "https://reduction-admin.github.io/react-reduction",
   "engines": { 
-    "node": ">=6",
-    "npm": ">=10"
+    "node": ">=13",
+    "npm": ">=6"
   },
   "dependencies": {
     "bootstrap": "4.3.1",
