@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "private": false,
   "homepage": "https://reduction-admin.github.io/react-reduction",
-  "engines": { 
+  "engines": {
     "node": ">=13",
     "npm": ">=6"
   },
