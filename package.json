@@ -50,8 +50,7 @@
     "serve": "serve -s build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "postinstall": "npm run build"
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",
