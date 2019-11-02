@@ -7,6 +7,7 @@ import React from 'react';
 import componentQueries from 'react-component-queries';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import './styles/reduction.scss';
+//import PlatingPage from './pages/PlatingPage';
 
 const AlertPage = React.lazy(() => import('pages/AlertPage'));
 const AuthModalPage = React.lazy(() => import('pages/AuthModalPage'));
@@ -14,6 +15,7 @@ const BadgePage = React.lazy(() => import('pages/BadgePage'));
 const ButtonGroupPage = React.lazy(() => import('pages/ButtonGroupPage'));
 const ButtonPage = React.lazy(() => import('pages/ButtonPage'));
 const CardPage = React.lazy(() => import('pages/CardPage'));
+const PlatingPage = React.lazy(() => import('pages/PlatingPage'));
 const ChartPage = React.lazy(() => import('pages/ChartPage'));
 const DashboardPage = React.lazy(() => import('pages/DashboardPage'));
 const DropdownPage = React.lazy(() => import('pages/DropdownPage'));
@@ -58,6 +60,7 @@ class App extends React.Component {
                 <Route exact path="/login-modal" component={AuthModalPage} />
                 <Route exact path="/buttons" component={ButtonPage} />
                 <Route exact path="/cards" component={CardPage} />
+                <Route exact path="/plating" component={PlatingPage} />
                 <Route exact path="/widgets" component={WidgetPage} />
                 <Route exact path="/typography" component={TypographyPage} />
                 <Route exact path="/alerts" component={AlertPage} />
