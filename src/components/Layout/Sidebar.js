@@ -109,20 +109,20 @@ class Sidebar extends React.Component {
 
   render() {
     return (
-      <aside className={bem.b()} data-image={sidebarBgImage}>
-        <div className={bem.e('background')} style={sidebarBackground} />
+      <aside className={bem.b()} >
+        {/* <div className={bem.e('background')} style={sidebarBackground} /> */}
         <div className={bem.e('content')}>
           <Navbar>
             <SourceLink className="navbar-brand d-flex">
-              <img
+              {/* <img
                 src={logo200Image}
                 width="40"
                 height="30"
                 className="pr-2"
                 alt=""
-              />
+              /> */}
               <span className="text-white">
-                Reduction <FaGithub />
+                Chef2020
               </span>
             </SourceLink>
           </Navbar>
